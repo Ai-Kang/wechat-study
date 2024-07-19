@@ -17,6 +17,26 @@ Page({
   },
   // 页面展示
   onShow(){
+    wx.request({
+      url: 'url',
+      method:"GET",
+      // 请求参数
+      data: {},
+      // 请求头
+      header: {},
+      // 返回数据格式，默认json
+      dataType: "json",
+      // 成功回调
+      success(res)=>{
+
+      },
+      // 失败回调
+      fail(res)=>{
+        
+      },
+      // 无论成功还是失败
+      complete(res)=>{}
+    })
   },
   // 页面渲染完成
   onReady(){},
