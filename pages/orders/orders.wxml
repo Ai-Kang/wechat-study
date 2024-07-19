@@ -1,0 +1,12 @@
+<view class="root">
+  <!-- 
+  scroll-view
+    scroll-y 纵向滚动
+    scroll-x 横向滚动
+ -->
+  <scroll-view class="ordersList" scroll-y="true">
+    <view> 1</view>
+    <view> 2</view>
+    <view> 3</view>
+  </scroll-view>
+</view>

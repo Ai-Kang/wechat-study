@@ -1,0 +1,20 @@
+.root{
+  padding-bottom: 50rpx;
+  .center{
+    width: 100%;
+  }
+  .appointmentButton{
+    width: 80%;
+    background: linear-gradient(60deg, #68b0f8,#014fff);
+    margin-top: 10rpx;
+    border-radius: 73rpx;
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: 600rpx;
+    text-align: center;
+    line-height: 100rpx;
+  }
+  .appointmentButtonHover{
+    background: linear-gradient(60deg, #2991f8,#0238b6);
+  }
+}

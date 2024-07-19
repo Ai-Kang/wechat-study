@@ -1,0 +1,54 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/index/VIPdetails/VIPdetails",
+    "pages/orders/orders",
+    "pages/personalCenter/personalCenter"
+  ],
+  "window": {
+    "navigationBarTitleText": "智能预约检车",
+    "navigationBarBackgroundColor": "#efefef",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#b0d4d2",
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "#404447",
+    "selectedColor": "#3D7EF6",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/icon/index-off.png",
+        "selectedIconPath": "/assets/icon/index-on.png"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": "/assets/icon/orders-off.png",
+        "selectedIconPath": "/assets/icon/orders-on.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心",
+        "iconPath": "/assets/icon/personalCenter-off.png",
+        "selectedIconPath": "/assets/icon/personalCenter-on.png"
+      }
+    ]
+  },
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

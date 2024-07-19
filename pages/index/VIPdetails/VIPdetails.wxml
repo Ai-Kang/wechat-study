@@ -1,0 +1,10 @@
+<view class="root">
+  <image mode="widthFix" class="center" src="../../../assets/index/VIPdetails/VIPdetailsImage.png" />
+  <!-- bind会触发父组件事件 catch不会触发父组件事件 -->
+  <button 
+    hover-class="appointmentButtonHover" 
+    type="default" 
+    class="appointmentButton"
+    bind:tap="toAppointment"
+    >立即预约</button>
+</view>

@@ -1,0 +1,42 @@
+.swiperClass {
+  swiper {
+    swiper-item {
+      .swiperImageClass {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.companyInfoClass {
+
+  .tital{
+    display: flex;
+    justify-content: space-between;
+  
+    .tatiInfo {
+      color: #1A1A1A;
+      font-size: 36rpx;
+      font-weight: 600;
+      margin: 20rpx 10rpx;
+    }
+  
+    .selectInfo {
+      color: #989BAB;
+      font-size: 26rpx;
+      margin-top: 20rpx;
+    }
+  }
+  .functional{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    image{
+      width: 340rpx;
+      height: 290rpx;
+      margin-bottom: 25rpx;;
+    }
+  }
+  
+}

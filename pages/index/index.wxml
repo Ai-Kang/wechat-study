@@ -1,0 +1,67 @@
+<!--
+ view 
+ swiper
+ swiper-item
+ image
+ text
+ navigator
+ scroll-view
+-->
+<!-- 轮播图 -->
+<view class="swiperClass">
+  <!-- 
+  autoplay="true" 轮播图自动切换
+  interval="2000" 两秒切换
+  indicator-dots="true" 显示圆点
+  indicator-color="#fff" 未选中圆点颜色
+  indicator-active-color="#efefef" 选中圆点颜色
+  circular="true" 最后一张切换到第一张
+ -->
+  <swiper autoplay="true" interval="2000" indicator-dots="true" indicator-color="#fff" indicator-active-color="#efefef" circular="true">
+    <swiper-item>
+      <!-- 
+      默认宽高 320px 240px
+      src 图片资源地址
+      mode 图片裁剪、缩放模式 "top left" "aspectFill" "aspectFit"
+      show-menu--by-longpress 长按图片显示菜单
+      lazy-load: 图片懒加载
+     -->
+      <image class="swiperImageClass" src="../../assets/banner.png" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 专属VIP -->
+<view class="companyInfoClass">
+  <!-- 
+    user-select 文本是否可选
+    space 显示连续空格 ensp全部英文显示 emsp全部中文显示 nbsp字符大小展示 
+   -->
+  <view class="tital">
+    <text user-select="true" space="nbsp" class="tatiInfo">专属VPI服务</text>
+    <navigator class="selectInfo" hover-class="none" url="/pages/index/VIPdetails/VIPdetails" open-type="navigate">查看详情 ></navigator>
+  </view>
+
+  <!-- 四个功能模块 -->
+  <view class="functional">
+  <!-- 
+      url 小程序内跳转链接
+      open-type: 
+        navigate 保留当前页面，跳转到应用内的某个页面，不能跳转到tabbar
+        redirect 关闭当前页面，跳转到应用内的某个页面，不能跳转到tabbar
+        switchTab 跳转到tabbar页面，关闭其他所有非tabbar页面 不支持传参
+        reLaunch 关闭所有页面，打开到应用内的某个页面
+        navigateBack 关闭当前页面，返回上一页面或多级页面
+      -->
+    <image src="../../assets/index/annual-inspection.png" />
+    <image src="../../assets/index/transfer.png" />
+    <image src="../../assets/index/used-car.png" />
+    <image src="../../assets/index/insurance.png" />
+    <image src="../../assets/index/insurance.png" />
+    <image src="../../assets/index/insurance.png" />
+  </view>
+</view>
+
+<!-- <view class="goodHotClass">
+  推荐商品
+</view> -->
