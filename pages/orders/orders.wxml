@@ -3,8 +3,16 @@
   scroll-view
     scroll-y 纵向滚动
     scroll-x 横向滚动
+    enable-back-to-top 回到顶部功能
+    lower-threshold 上拉加载距离
+    bindscrolltolower 上拉加载函数
+    refresher-enabled 下拉刷新开启
+    refresher-default-style 下拉样式
+    refresher-background 下拉刷新背景色
+    bindrefresherrefresh 下拉实现函数
+    refresher-triggered 下拉是否可以弹回去，需要使用插值处理
  -->
-  <scroll-view class="ordersList" scroll-y="true">
+  <scroll-view class="ordersList" scroll-y="true" enable-back-to-top="true" lower-threshold="100" bindscrolltolower="onPullDownRefresh" refresher-enabled="true" refresher-default-style="black" refresher-background="#f7f7f8" bindrefresherrefresh="onPullDownRefresh" refresher-triggered="true">
     <view> 1</view>
     <view> 2</view>
     <view> 3</view>
